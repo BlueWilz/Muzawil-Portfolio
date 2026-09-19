@@ -20,7 +20,7 @@ const site = {
   linkedin: "https://www.linkedin.com/in/muzawil",
   instagram: "https://www.instagram.com/dawilz_",
   facebook: "https://www.facebook.com/share/1KAr5V92jW/?mibextid=wwXIfr",
-  portrait: "/assets/muzawil-profile.jpg",
+  portrait: `${import.meta.env.BASE_URL}assets/muzawil-profile.jpg`,
 };
 
 const navItems = [
